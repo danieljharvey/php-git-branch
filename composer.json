@@ -1,0 +1,23 @@
+{
+    "name": "danieljharvey/php-git-branch",
+    "description": "Library for working out which git branch you are on in PHP",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Harvey",
+            "email": "danieljamesharvey@gmail.com"
+        }
+    ],
+    "require": {
+        "danieljharvey/file-wrapper": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanielJHarvey\\PHPGitBranch\\": "src/"
+        }
+    }
+}
