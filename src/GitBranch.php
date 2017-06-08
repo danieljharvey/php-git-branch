@@ -9,12 +9,12 @@ class GitBranch {
 
 	protected $branch = false;
 
-	function __construct(string $homeFolderPath, \DanielJHarvey\FileWrapper\FileWrapper $fileWrapper) {
+	function __construct($homeFolderPath, \DanielJHarvey\FileWrapper\FileWrapper $fileWrapper) {
 		$this->homeFolderPath = $homeFolderPath;
 		$this->fileWrapper = $fileWrapper;
 	}
 
-	function __get(string $name) {
+	function __get($name) {
 		return $this->getBranch();
 	}
 
